@@ -4,6 +4,15 @@
     <AssemblyName>XSharpx</AssemblyName>
     <RootNamespace>XSharpx</RootNamespace>
   </PropertyGroup>
+  <PropertyGroup Label="Packaging">
+    <PackageVersion>1.0.0-RC</PackageVersion>
+    <PackageID>XSharpX</PackageID>
+    <Description>A general library for functional programming using .NET languages. It provides purely functional data structures to complement those from the BCEL.</Description>
+    <Authors>Tony Morris, XSharpX contributors</Authors>
+    <PackageLicenseUrl>https://github.com/data61/xsharpx/blob/master/LICENCE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/data61/xsharpx</PackageProjectUrl>
+    <PackageTags>Functional Datastructures</PackageTags>
+  </PropertyGroup>
   <PropertyGroup>
     <TargetFramework>netstandard1.3</TargetFramework>
   </PropertyGroup>
@@ -18,6 +27,6 @@
     <PackageReference Include="NETStandard.Library">
       <Version>1.3</Version>
     </PackageReference>
- </ItemGroup>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
